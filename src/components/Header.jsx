@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import logo from '../assets/logo.avif';
+import logo from '../assets/flogo.png';
 import searchIcon from '../assets/search2.png';
 import cartImage from '../assets/cart.png';
 import userImg from '../assets/userImg.png';
@@ -16,7 +16,7 @@ const Header = () => {
     <div className='max-w-screen-xl mx-auto bg-gradient-to-r from-blue-700 to-gray-900 rounded-lg p-1 flex items-center mt-1'>
       <div>
         <Link to='/'>
-          <img src={logo} className='w-40' alt="Study With Me" />
+          <img src={logo} className='w-32' alt="Study With Me" />
         </Link>
       </div>
       <div className='flex w-6/12 p-2'>
